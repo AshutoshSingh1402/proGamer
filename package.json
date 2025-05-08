@@ -1,0 +1,53 @@
+{
+  "name": "gg-api",
+  "version": "1.0.0",
+  "description": "this is a test project",
+  "main": "src",
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tslint": "tslint -p tslint.json",
+    "lint": "eslint 'src/**/*.{ts,tsx}' --fix"
+  },
+  "author": "AA",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.16.0",
+    "@types/express": "^5.0.0",
+    "@types/morgan": "^1.9.9",
+    "@types/node": "^22.9.0",
+    "@types/winston": "^2.4.4",
+    "@typescript-eslint/eslint-plugin": "^8.18.0",
+    "@typescript-eslint/parser": "^8.18.0",
+    "eslint": "^9.16.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.37.2",
+    "globals": "^15.13.0",
+    "node-tslint-rules": "^1.20.3",
+    "nodemon": "^3.1.7",
+    "prettier": "^3.3.3",
+    "ts-node": "^10.9.2",
+    "tslint": "^6.1.3",
+    "tslint-plugin-node": "^3.0.0-beta.7",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.18.0"
+  },
+  "dependencies": {
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/passport-jwt": "^4.0.1",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "module-alias": "^2.2.3",
+    "mongoose": "^8.8.4",
+    "morgan": "^1.10.0",
+    "parse-server": "^7.4.0",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "tsconfig-paths": "^4.2.0",
+    "winston": "^3.17.0",
+    "zod": "^3.24.4"
+  }
+}

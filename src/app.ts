@@ -51,7 +51,7 @@ class App {
   }
 
   private addLogger() {
-    // this.app.use(morgan('combined', { stream: logger.stream }));
+    this.app.use(morgan('combined', { stream: logger.stream }));
   }
 }
 
